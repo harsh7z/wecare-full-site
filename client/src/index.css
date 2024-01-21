@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'FreigeistMono-Medium';
+  src: local(FreigeistMono-Medium),
+  url(fonts/FreigeistMono-Medium.otf) format("truetype");
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-SemiBold';
+  src: local(SSpaceGrotesk-SemiBold),
+  url(fonts/SpaceGrotesk-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-Medium';
+  src: local(SSpaceGrotesk-Medium),
+  url(fonts/SpaceGrotesk-Medium.ttf) format("truetype");
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  text-transform: capitalize;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flex-container{
+  /* this is globle class that we can use to convert any perent in to flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

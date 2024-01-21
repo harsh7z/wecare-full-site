@@ -1,0 +1,65 @@
+header{
+    width: 100%;
+    height: 64px;
+}
+.nav-bar{
+    width: 100%;
+    height: 94px;
+    position: fixed;
+    justify-content: flex-end;
+    background-color: transparent;
+    flex-direction: row;
+    padding: 0 3rem;
+    /* border-bottom: 1px solid #000000; */
+    z-index: 99;
+    font-size: 1.2rem;
+    margin-bottom: 10rem;
+    transition: all 0.2s ease-in;
+}
+
+.nav-active{
+    width: 100%;
+    height: 94px;
+    position: fixed;
+    justify-content: flex-end;
+    background-color: #B6EADA;
+    flex-direction: row;
+    padding: 0 3rem;
+    /* border-bottom: 1px solid #000000; */
+    z-index: 99;
+    font-size: 1.2rem;
+    margin-bottom: 10rem;
+    /* transition: all 0.1s ease-out; */
+}
+.nav-branding{
+    font-family: 'FreigeistMono-Medium';
+    font-size: 2rem;
+}
+
+.nav-branding a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links{
+    margin-left: auto;
+}
+
+.nav-links ul , .account{
+    list-style: none;
+    flex-direction: row;
+}
+
+.nav-links ul li, .account{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.nav-links ul li a, .account{
+    text-decoration: none;
+    color: black;
+    font-family: 'SpaceGrotesk-SemiBold';
+}
+
+.nav-links ul li a.active{
+    border-bottom: 2px solid black;
+}

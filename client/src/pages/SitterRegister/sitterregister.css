@@ -1,0 +1,82 @@
+.sitter-register{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.sitter-profile-img{
+    width: 240px;
+    height: 240px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.sitter-profile-img img{
+    width: 100%; 
+    height: inherit;
+    object-fit: cover;  
+    position: absolute;
+}
+.imgUpload{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    opacity: 0;
+    position: absolute;
+
+}
+
+.sitter-register form{
+    width: calc(100% - 240px);
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: transparent;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sitter-register form input{
+    margin: 0.5rem;
+    width: 40%;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-family: 'FreigeistMono-Medium';
+    outline: none;
+    padding: 1rem;
+    border: 1px solid black ;
+}
+
+.sitter-register form button{
+    margin: 1rem;
+    width: 60%;
+    background-color: #B6EADA;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-family: 'FreigeistMono-Medium';
+    outline: none;
+    padding: 1rem;
+    border: 1px solid black ;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.sitter-register form button:hover{
+    background-color: #FFFFFF;
+}
+
+.sitter-register  form a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-family: 'FreigeistMono-Medium';
+    outline: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.sitter-register form a:hover{
+    text-decoration: underline;
+}

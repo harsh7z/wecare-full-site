@@ -1,0 +1,49 @@
+.search-sitter{
+    width: 100%;
+    height: auto;
+    padding: 0 3rem;
+    margin-top: 2rem;
+}
+
+.filters{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.filters form{
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.filters form select{
+    width: 30%;
+    height: 4rem;
+    font-size: 1rem;
+}
+
+.filters form select:invalid { 
+    color: gray
+}
+
+.filters form button{
+    width: 10%;
+    height: 4rem;
+    font-size: 1rem;
+}
+
+.datePicker,.timePicker{
+    width: 30%;
+    height: 4rem;
+    border-radius: 0px;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+.sitter-container{
+    margin-top: 3rem;
+    width: 100%;
+    height: fit-content;
+}
+
+

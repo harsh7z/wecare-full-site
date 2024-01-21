@@ -1,0 +1,55 @@
+.sitter-card{
+    width: 100%;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'SpaceGrotesk-Medium';
+}
+
+.sitter-img{
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.sitter-img img{
+    width: 100%; 
+    height: inherit;
+    object-fit: cover;
+}
+.sitter-info{
+    width: 80%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sitter-name{
+    width: 100%;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+
+.sitter-btns{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sitter-btn{
+    width: 49%;
+    height: 3rem;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+    font-family: 'SpaceGrotesk-Medium'; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.sitter-btn:hover{
+    background-color: #B6EADA;
+}

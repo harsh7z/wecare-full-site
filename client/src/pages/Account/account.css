@@ -1,0 +1,58 @@
+.user-account{
+    width: 100%;
+    height: auto;
+    padding: 0 3rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.user-btns{
+    border: 1px solid #000000;
+    width: 240px;
+    height: inherit;
+    font-size: 1.2rem;
+    font-family: 'FreigeistMono-Medium';
+    outline: none;
+    background-color: #B6EADA;
+    cursor: pointer;
+}
+
+.account-layout{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.username{
+    flex-direction: column;
+    align-items: start;
+    font-family: 'FreigeistMono-Medium';
+}
+
+.username span:nth-child(1){
+    font-size: 2rem;
+}
+.username span:nth-child(2){
+    text-transform: none;
+}
+.user-info{
+    width: 100%;
+    height: 4rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bookings{
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.booking-list{
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+}

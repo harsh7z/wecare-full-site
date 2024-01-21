@@ -1,0 +1,426 @@
+.main-container{
+    width: 100%;
+    height: auto;
+    padding: 0 3rem;
+    margin-top: -64px;
+    position: relative;
+}
+
+.landing-section{
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    margin-bottom: 5em;
+}
+
+.text-card{
+    width: 50%;
+    height: inherit;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+
+.text-card span{
+    width: 100%;
+    font-family: 'FreigeistMono-Medium';
+    font-size: 3.2rem;
+    white-space: nowrap; 
+}
+
+.search-bar{
+    width: 100%;
+    height: fit-content;
+    margin-top: 1rem;
+}
+
+.search-bar select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border: 1px solid #000000 !important;
+    border-radius: 0px !important;
+    width: 70%;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-family: 'FreigeistMono-Medium';
+    outline: none;
+    padding: 1rem;
+    background: #FFFFFF;
+    box-shadow: none;
+    background-image: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.search-bar button{
+    border: 1px solid #000000;
+    width: 30%;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-family: 'FreigeistMono-Medium';
+    outline: none;
+    background-color: #B6EADA;
+    cursor: pointer;
+}
+.img-card{
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 40%;
+    overflow: hidden; 
+    /* display: flex; */
+}
+
+.img-card img{
+    width: 100%; 
+    height: inherit;
+    object-fit: cover;
+}
+
+.procedure-contianer{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    min-height: 200px;
+}
+
+.procedure-card{
+    font-family: 'SpaceGrotesk-SemiBold';
+    margin: auto;
+    flex-basis: 33%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.procedure-card span{
+    font-size: 2rem;
+    line-height: 5rem;
+    padding-right: 1rem;
+    color: #000000;
+    flex-basis: 15%;
+    border-right: 1px solid black;
+
+}
+
+.procedure-card-text{
+    flex-basis: 80%;
+    padding-left: 1rem;
+}
+
+.procedure-card-text h2{
+    font-size: 2rem;
+    color: black;
+    white-space: nowrap;
+}
+
+.procedure-card-text p{
+    font-family: 'SpaceGrotesk-Medium';
+    font-size: 1rem;
+    color: black;
+}
+
+.service-container{
+    width: 100%;
+    margin: 5rem 0;
+    overflow: hidden;
+}
+
+.service-container span{
+    display: block;
+    width: 100%;
+    font-family: 'SpaceGrotesk-SemiBold';
+    font-size: 2rem;
+    color: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.service-img{
+    flex-basis: 50%;
+}
+.services img{
+    width: 100%;
+
+}
+
+.service-info{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
+
+.service-card{
+    flex-basis: 50%;
+    padding-right: 3rem;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.service-card h2{
+    font-family: 'SpaceGrotesk-SemiBold';
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.service-card p{
+    font-family: 'SpaceGrotesk-Medium';
+    font-size: 1rem;
+    font-weight: 300;
+    color: #555555;
+}
+
+.ad-container{
+    width: 100%;
+    background-color: #B6EADA;
+    margin-bottom: 5rem;
+}
+
+.ad-text{
+    height: inherit;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.ad-text span{
+    font-family: 'FreigeistMono-Medium';
+    color: black;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.ad-text p{
+    font-family: 'SpaceGrotesk-Medium';
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.ad-text a{
+    border: 1px solid #000000;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-family: 'FreigeistMono-Medium';
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+.ad-img{
+    flex-basis: 50%;
+
+}
+
+.ad-img img{
+    width: 100%;
+}
+
+.info-card{
+    flex-basis: 50%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+    padding: 2rem;
+}
+
+.info-card span{
+    font-family: 'FreigeistMono-Medium';
+    color: black;
+    font-size: 3rem;
+}
+
+.info-text{
+    font-family: 'SpaceGrotesk-Medium';
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    white-space: nowrap;
+    line-height: 3rem;
+}
+
+.info-flex-img{
+    margin-top: 2rem;
+    flex-basis: 40%;
+}
+
+.info-flex-img img{
+    width: 100%;
+}
+
+
+.review-container{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.rating-section{
+    width: 100%;
+    display: block;
+    padding: 2rem;
+}
+
+.rating-section span{
+    font-family: 'FreigeistMono-Medium';
+}
+
+.rating-section span:nth-child(1){
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+.rating-section span:nth-child(3){
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rating-section span:nth-child(4){
+    margin: 0 2rem;
+}
+
+.review-card-flex{
+    width: 100%;
+    display: flex;
+    margin-bottom: 5rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review-card{
+    flex-basis: 49%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #101010;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.review-img{
+    flex-basis: 35%;
+}
+
+.review-img img{
+    width: 100%;
+}
+
+.review-text{
+    font-family: 'FreigeistMono-Medium';
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-text span:nth-child(1){
+    font-family: 'FreigeistMono-Medium';
+    margin-bottom: 1rem;
+}
+.review-text span:nth-child(2){
+    font-family: 'FreigeistMono-Medium';
+    border-top: 1px solid #101010;
+    border-bottom: 1px solid #101010;
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.review-text span:nth-child(3){
+    padding: 1.4rem 0 0 0;
+    font-size: 1rem;
+    font-family: 'FreigeistMono-Medium';
+    font-weight: 300;
+}
+
+.faq-section{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.faq-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.faq-text{
+    flex-basis: 50%;
+}
+
+.faq-text span{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'FreigeistMono-Medium';
+}
+
+.faq{
+    flex-basis: 50%;
+}
+
+.faq p{
+    font-family: 'FreigeistMono-Medium';
+    font-size: 1rem;
+    line-height: 3rem;
+    border-bottom: 1px solid #555555;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+.instagram{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.instagram-link{
+    font-family: 'FreigeistMono-Medium';
+    color: #101010;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram-link span a{
+    font-family: 'FreigeistMono-Medium';
+    text-decoration: none;
+    color: #555555;
+}
+
+.instagram-imgs{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+    border: 1px solid #101010;
+}
+
+.instagram-imgs img:nth-child(1){
+    width: 25%;
+    padding: 1rem;
+}
+
+.instagram-imgs img:nth-child(2){
+    width: 25%;
+    padding: 1rem;
+}
+
+.instagram-imgs img:nth-child(3){
+    width: 50%;
+    padding: 1rem;
+}
